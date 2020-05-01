@@ -1,0 +1,13 @@
+{
+  "name": "demotime",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular",
+  "proxies": [
+    {
+      "path": "demo/*",
+      "proxyUrl": "http://editodemo.000webhostapp.com/"
+    }
+  ]
+}

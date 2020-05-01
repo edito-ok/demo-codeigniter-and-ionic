@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>demo</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item class="ion-text-center">
+    <ion-label>
+      <h1>{{ value }}</h1>
+    </ion-label>
+  </ion-item>
+  <ion-grid>
+    <ion-row class="ion-align-items-center">
+      <ion-col>
+        <ion-button (click)="start()" class="ion-color-success">
+          <ion-label>Start</ion-label>
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button (click)="pause()" class="ion-color-success">
+          <ion-label>Pause</ion-label>
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button (click)="change()" class="ion-color-success">
+          <ion-label>Change to 8 days</ion-label>
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
